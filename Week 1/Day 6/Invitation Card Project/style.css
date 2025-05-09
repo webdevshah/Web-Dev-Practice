@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.invitation-card{
+    width: 400px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #00425C;
+    box-shadow: 3px 0px 7px black;
+}
+
+#stars img{
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2px;
+}
+
+#unicorn {
+    position: relative;
+}
+
+#unicorn img{
+    position: absolute;
+    right: 500px;
+    bottom: 350px;
+    left: 50px;
+    width: 300px;
+}
+
+.information{
+    position: relative;
+    bottom: 320px;
+    left: 80px;
+    border: 2px dotted palevioletred;
+    background-color: #00425C;
+    color: white;
+    border-radius: 50px;
+    width: 230px;
+    height: 250px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    line-height: 1.3em;
+}
+
+.information .text{
+    margin-top: 28px;
+}
+
+#invite{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#name{
+    font-size: 28px;
+    color: #EB65A2;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#time{
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#date{
+    font-weight: bold;
+    color: pink;
+    margin-bottom: 5px;
+}
+
+#Park{
+    font-weight: bold;
+    font-size: 15px;
+    color: #b76599;
+    margin-bottom: 5px;
+}
+
+#adress{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
